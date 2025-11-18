@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+test_venv/
+test_venv_py39/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# API Keys and sensitive data
+**/api_keys.py
+**/sula31610金鑰/
+*.json
+!requirements*.json
+
+# Logs
+*.log
+logs.log
+
+# Data files (large CSV/data files)
+*.csv
+!requirements*.csv
+**/Goodinfo_data/
+**/data/
+**/資料庫/
+
+# Excel files
+*.xlsx
+*.xls
+!test_images/**/*.xlsx
+
+# Images (except test images)
+*.png
+*.jpg
+*.jpeg
+!test_images/**/*.png
+!test_images/**/*.jpg
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Execution logs
+execution_log.md
+todo_list.md
+
+# Test outputs
+test_output/
+*.test
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
