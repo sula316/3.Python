@@ -1,0 +1,8 @@
+psutil
+pywin32
+wmi
+watchdog
+yara-python
+pefile
+scapy
+pyshark
